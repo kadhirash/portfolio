@@ -14,7 +14,20 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Kadhirash Sivakumar",
-  description: "Software engineer, trader, and builder based in Cupertino, CA",
+  description: "Software engineer building things with Next.js and trading in my free time",
+  openGraph: {
+    title: "Kadhirash Sivakumar",
+    description: "Software engineer building things with Next.js and trading in my free time",
+    url: "https://kadhirash.vercel.app",
+    siteName: "Kadhirash Sivakumar",
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "Kadhirash Sivakumar",
+    description: "Software engineer building things with Next.js and trading in my free time",
+  },
 };
 
 export default function RootLayout({

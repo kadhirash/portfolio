@@ -1,12 +1,15 @@
 export default function Home() {
   return (
     <div className="min-h-screen bg-white dark:bg-black">
-      <main className="mx-auto max-w-2xl px-6 py-24 sm:py-32">
+      <main className="mx-auto max-w-2xl px-6 py-24 sm:py-32 animate-fade-in">
         {/* Header */}
         <header className="mb-16">
           <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
             Kadhirash Sivakumar
           </h1>
+          <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
+            Software engineer building things with Next.js and trading in my free time
+          </p>
         </header>
 
         {/* Currently Section */}
@@ -47,7 +50,7 @@ export default function Home() {
 
         {/* Social Links */}
         <section className="border-t border-gray-200 pt-8 dark:border-gray-800">
-          <div className="flex flex-wrap gap-6 text-gray-700 dark:text-gray-300">
+          <div className="flex flex-wrap items-center gap-4 text-base text-gray-700 dark:text-gray-300">
             <a
               href="https://github.com/kadhirash"
               target="_blank"
@@ -56,6 +59,7 @@ export default function Home() {
             >
               github
             </a>
+            <span className="text-gray-400">•</span>
             <a
               href="https://www.linkedin.com/in/kadhirash/"
               target="_blank"
@@ -64,6 +68,7 @@ export default function Home() {
             >
               linkedin
             </a>
+            <span className="text-gray-400">•</span>
             <a
               href="https://x.com/kadhirash"
               target="_blank"
@@ -72,6 +77,7 @@ export default function Home() {
             >
               x
             </a>
+            <span className="text-gray-400">•</span>
             <a
               href="mailto:kadhirash@gmail.com"
               className="transition-colors hover:text-gray-900 dark:hover:text-gray-100"
