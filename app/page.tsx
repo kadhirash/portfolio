@@ -44,6 +44,42 @@ export default function Home() {
             <li>• concerts & time with family/friends</li>
           </ul>
         </section>
+
+        {/* Social Links */}
+        <section className="border-t border-gray-200 pt-8 dark:border-gray-800">
+          <div className="flex flex-wrap gap-6 text-gray-700 dark:text-gray-300">
+            <a
+              href="https://github.com/kadhirash"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-gray-900 dark:hover:text-gray-100"
+            >
+              github
+            </a>
+            <a
+              href="https://www.linkedin.com/in/kadhirash/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-gray-900 dark:hover:text-gray-100"
+            >
+              linkedin
+            </a>
+            <a
+              href="https://x.com/kadhirash"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-gray-900 dark:hover:text-gray-100"
+            >
+              x
+            </a>
+            <a
+              href="mailto:kadhirash@gmail.com"
+              className="transition-colors hover:text-gray-900 dark:hover:text-gray-100"
+            >
+              email
+            </a>
+          </div>
+        </section>
       </main>
     </div>
   );
