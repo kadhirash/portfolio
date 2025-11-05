@@ -29,10 +29,15 @@ export default function Home() {
           <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
             previously:
           </h2>
-          <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-            <li>• software engineer @ General Motors <span className="font-semibold">(4.5+ years)</span></li>
-            <li>• bachelor's in computer science @ UC Riverside</li>
-          </ul>
+          <div className="space-y-4 text-gray-700 dark:text-gray-300">
+            <div>
+              <div className="font-semibold text-gray-900 dark:text-gray-100">software engineer @ General Motors <span className="font-normal text-gray-600 dark:text-gray-400">(4.5+ years)</span></div>
+              <div className="mt-1 text-sm">Built scalable backend APIs, led enterprise-wide CodeQL security rollout, migrated frontend apps from AngularJS to Angular with 30% performance improvement</div>
+            </div>
+            <div>
+              <div className="font-semibold text-gray-900 dark:text-gray-100">bachelor's in computer science @ UC Riverside</div>
+            </div>
+          </div>
         </section>
 
         {/* Skills Section */}
@@ -42,7 +47,7 @@ export default function Home() {
           </h2>
           <div className="space-y-3 text-gray-700 dark:text-gray-300">
             <div>
-              <span className="font-medium text-gray-900 dark:text-gray-100">Languages & Frameworks:</span> Java, Spring Boot, Python, JavaScript, TypeScript, Angular, AngularJS, React Native
+              <span className="font-medium text-gray-900 dark:text-gray-100">Languages & Frameworks:</span> Java, Spring Boot, Python, JavaScript, TypeScript, Next.js, React, Angular, AngularJS, React Native
             </div>
             <div>
               <span className="font-medium text-gray-900 dark:text-gray-100">Backend & Cloud:</span> REST APIs, Microservices, AWS, Docker, CI/CD Pipelines
