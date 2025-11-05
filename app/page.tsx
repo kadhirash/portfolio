@@ -35,6 +35,24 @@ export default function Home() {
           </ul>
         </section>
 
+        {/* Skills Section */}
+        <section className="mb-12">
+          <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
+            skills:
+          </h2>
+          <div className="space-y-3 text-gray-700 dark:text-gray-300">
+            <div>
+              <span className="font-medium text-gray-900 dark:text-gray-100">Languages & Frameworks:</span> Java, Spring Boot, Python, JavaScript, TypeScript, Angular, AngularJS, React Native
+            </div>
+            <div>
+              <span className="font-medium text-gray-900 dark:text-gray-100">Backend & Cloud:</span> REST APIs, Microservices, AWS, Docker, CI/CD Pipelines
+            </div>
+            <div>
+              <span className="font-medium text-gray-900 dark:text-gray-100">Databases & Tools:</span> PostgreSQL, CodeQL, Git, Jenkins, IntelliJ, VS Code, MATLAB
+            </div>
+          </div>
+        </section>
+
         {/* Interests Section */}
         <section className="mb-12">
           <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
@@ -83,6 +101,15 @@ export default function Home() {
               className="transition-colors hover:text-gray-900 dark:hover:text-gray-100"
             >
               email
+            </a>
+            <span className="text-gray-400">•</span>
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-gray-900 dark:hover:text-gray-100"
+            >
+              resume
             </a>
           </div>
         </section>
