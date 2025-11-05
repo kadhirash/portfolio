@@ -1,10 +1,10 @@
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white dark:bg-black">
-      <main className="mx-auto max-w-2xl px-6 py-24 sm:py-32 animate-fade-in">
+    <div className="min-h-screen">
+      <main className="relative z-10 mx-auto max-w-2xl px-6 py-24 sm:py-32">
         {/* Header */}
-        <header className="mb-16">
-          <h1 className="text-4xl font-bold tracking-tight text-blue-600 dark:text-blue-400 sm:text-5xl">
+        <header className="mb-16 animate-fade-in">
+          <h1 className="text-4xl font-bold tracking-tight text-blue-600 dark:text-blue-400 sm:text-5xl font-[family-name:var(--font-space-grotesk)]">
             Kadhirash Sivakumar
           </h1>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
@@ -13,7 +13,7 @@ export default function Home() {
         </header>
 
         {/* Currently Section */}
-        <section className="mb-12">
+        <section className="mb-12 reveal">
           <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
             currently:
           </h2>
@@ -25,7 +25,7 @@ export default function Home() {
         </section>
 
         {/* Previously Section */}
-        <section className="mb-12">
+        <section className="mb-12 reveal">
           <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
             previously:
           </h2>
@@ -36,7 +36,7 @@ export default function Home() {
         </section>
 
         {/* Skills Section */}
-        <section className="mb-12">
+        <section className="mb-12 reveal">
           <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
             skills:
           </h2>
@@ -54,7 +54,7 @@ export default function Home() {
         </section>
 
         {/* Interests Section */}
-        <section className="mb-12">
+        <section className="mb-12 reveal">
           <h2 className="mb-4 text-lg font-semibold text-gray-900 dark:text-gray-100">
             interests:
           </h2>
@@ -67,7 +67,7 @@ export default function Home() {
         </section>
 
         {/* Social Links */}
-        <section className="border-t border-gray-200 pt-8 dark:border-gray-800">
+        <section className="reveal border-t-0 pt-8">
           <div className="flex flex-wrap items-center gap-4 text-base text-gray-700 dark:text-gray-300">
             <a
               href="https://github.com/kadhirash"
