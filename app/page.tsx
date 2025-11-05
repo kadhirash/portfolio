@@ -18,8 +18,8 @@ export default function Home() {
             currently:
           </h2>
           <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-            <li>• job searching</li>
-            <li>• building side projects with Next.js</li>
+            <li>• open to opportunities</li>
+            <li>• building side projects</li>
             <li>• based in Cupertino, looking to move to NYC</li>
           </ul>
         </section>
