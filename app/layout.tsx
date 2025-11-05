@@ -19,7 +19,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Kadhirash Sivakumar",
     description: "Software engineer building things with Next.js and trading in my free time",
-    url: "https://kadhirash.vercel.app",
+    url: "https://kadhirash.com",
     siteName: "Kadhirash Sivakumar",
     locale: "en_US",
     type: "website",
