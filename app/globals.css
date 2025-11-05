@@ -39,3 +39,48 @@ body {
 .animate-fade-in {
   animation: fade-in 0.6s ease-out;
 }
+
+/* Micro-interactions: Section hover effects */
+section {
+  transition: transform 0.2s ease;
+}
+
+section:hover {
+  transform: translateX(2px);
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  
+  header, section, footer {
+    break-inside: avoid;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  a[href^="http"]:after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
+  }
+  
+  .animate-fade-in {
+    animation: none;
+  }
+}
+
+/* Mobile polish: Better touch targets and spacing */
+@media (max-width: 640px) {
+  a {
+    min-height: 44px;
+    min-width: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

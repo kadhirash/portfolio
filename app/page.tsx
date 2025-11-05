@@ -4,7 +4,7 @@ export default function Home() {
       <main className="mx-auto max-w-2xl px-6 py-24 sm:py-32 animate-fade-in">
         {/* Header */}
         <header className="mb-16">
-          <h1 className="text-4xl font-bold tracking-tight text-gray-900 dark:text-gray-100 sm:text-5xl">
+          <h1 className="text-4xl font-bold tracking-tight text-blue-600 dark:text-blue-400 sm:text-5xl">
             Kadhirash Sivakumar
           </h1>
           <p className="mt-4 text-lg text-gray-600 dark:text-gray-400">
@@ -30,7 +30,7 @@ export default function Home() {
             previously:
           </h2>
           <ul className="space-y-2 text-gray-700 dark:text-gray-300">
-            <li>• software engineer @ General Motors (4.5+ years)</li>
+            <li>• software engineer @ General Motors <span className="font-semibold">(4.5+ years)</span></li>
             <li>• bachelor's in computer science @ UC Riverside</li>
           </ul>
         </section>
@@ -113,6 +113,12 @@ export default function Home() {
             </a>
           </div>
         </section>
+
+        {/* Footer */}
+        <footer className="mt-16 border-t border-gray-200 pt-8 text-center text-sm text-gray-500 dark:border-gray-800 dark:text-gray-400">
+          <p>© 2025 Kadhirash Sivakumar</p>
+          <p className="mt-2">Cupertino, CA → New York, NY</p>
+        </footer>
       </main>
     </div>
   );
